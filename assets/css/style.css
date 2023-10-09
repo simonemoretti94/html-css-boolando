@@ -107,7 +107,12 @@
     top: 1.5%;
     right: 0%;
     background-color: rgb(241, 241, 241);
+    fill: black;
     padding: 10px 8px;
+}
+
+#black-heart:hover {
+    fill: red;
 }
 
 .red-button {
