@@ -95,12 +95,24 @@
     background-color: lightseagreen;
 }
 
-.col1 img{
+.col1 .img-under{
     /* margin: 0 auto; */
-    position: absolute;
+    /* position: absolute; */
     width: fit-content;
     height: 100%;
-} 
+}
+
+.col1 .img-top{
+    width: fit-content;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.col1:hover .img-top {
+    display: none;
+}
 
 .black-heart {
     position: absolute;
@@ -154,7 +166,7 @@
     font-family: sans-serif;
     font-size: small;
     font-weight: 50;
-    color: rgb(197, 197, 197);
+    color: rgb(177, 177, 177);
 }
 
 .col1-clothing-type {
