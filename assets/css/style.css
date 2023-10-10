@@ -102,7 +102,7 @@
     height: 100%;
 } 
 
-#black-heart {
+.black-heart {
     position: absolute;
     top: 1.5%;
     right: 0%;
@@ -111,8 +111,8 @@
     padding: 10px 8px;
 }
 
-#black-heart:hover {
-    fill: red;
+.black-heart:hover {
+    color: red;
 }
 
 .red-button {
