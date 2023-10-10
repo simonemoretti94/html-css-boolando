@@ -63,6 +63,15 @@
 
 /* main */
 
+.debug main {
+    background-color: cornflowerblue;
+}
+
+main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .debug #submain {
     background-color: aqua;
 }
@@ -81,6 +90,10 @@
     justify-content: space-between;
 }
 
+.debug .first-row-submain {
+    background-color: rgb(45, 203, 255);
+}
+
 .first-row-submain {
     width: auto;
     height: 600px;
@@ -96,14 +109,12 @@
 }
 
 .col1 .img-under{
-    /* margin: 0 auto; */
-    /* position: absolute; */
-    width: fit-content;
+    width: 100%;
     height: 100%;
 }
 
 .col1 .img-top{
-    width: fit-content;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0%;
@@ -158,8 +169,8 @@
 }
 
 .debug .second-row-submain {
-    background-color: rgb(255, 255, 255);
-    border: dashed 1px blue;
+    background-color: rgb(199, 233, 241);
+    border: dashed 1px rgb(60, 141, 151);
 }
 
 .col1-brand {
