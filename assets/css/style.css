@@ -119,6 +119,15 @@
 
 /* main */
 
+.debug main {
+    background-color: cornflowerblue;
+}
+
+main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .debug #submain {
     background-color: aqua;
 }
@@ -137,6 +146,10 @@
     justify-content: space-between;
 }
 
+.debug .first-row-submain {
+    background-color: rgb(45, 203, 255);
+}
+
 .first-row-submain {
     width: auto;
     height: 600px;
@@ -152,14 +165,24 @@
     box-shadow: 7px 7px rgb(255, 222, 161);
 }
 
-.col1 img{
-    /* margin: 0 auto; */
-    position: absolute;
-    width: fit-content;
+.col1 .img-under{
+    width: 100%;
     height: 100%;
+} 
+
+.col1 .img-top{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }
 
-#black-heart {
+.col1:hover .img-top {
+    display: none;
+}
+
+.black-heart {
     position: absolute;
     top: 1.5%;
     right: 0%;
@@ -218,15 +241,15 @@
 }
 
 .debug .second-row-submain {
-    background-color: rgb(255, 255, 255);
-    border: dashed 1px blue;
+    background-color: rgb(199, 233, 241);
+    border: dashed 1px rgb(60, 141, 151);
 }
 
 .col1-brand {
     font-family: sans-serif;
     font-size: small;
     font-weight: 50;
-    color: rgb(197, 197, 197);
+    color: rgb(177, 177, 177);
 }
 
 .col1-clothing-type {
