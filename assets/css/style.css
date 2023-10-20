@@ -159,7 +159,7 @@
     height: 100%;
 }
 
-#black-heart {
+.black-heart {
     position: absolute;
     top: 1.5%;
     right: 0%;
@@ -169,8 +169,8 @@
     transition: all 2s;
 }
 
-#black-heart:hover {
-    fill: red;
+.black-heart:hover {
+    color: red;
     transform: scale(1.5);
 }
 
